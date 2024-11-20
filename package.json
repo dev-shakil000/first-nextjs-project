@@ -1,0 +1,32 @@
+{
+  "name": "love-care",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.16.13",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "next": "12.0.1",
+    "nodemailer": "^6.7.0",
+    "path": "^0.12.7",
+    "react": "17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-phone-number-input": "^3.1.35",
+    "sass": "^1.43.4",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "7",
+    "eslint-config-next": "12.0.1"
+  }
+}

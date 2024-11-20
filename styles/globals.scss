@@ -1,0 +1,100 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*img {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.phone-input-div {
+  cursor: text;
+  background-color: #fff;
+  height: 60px;
+  transition: 0.3s ease;
+  border-radius: 100px;
+
+  input {
+    padding-left: 8px;
+    border-radius: 100px !important;
+    transition: 0.3s ease;
+    border: 0px solid #d1d1d1;
+    height: 100%;
+    outline: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    &::placeholder {
+      color: #d0d0d0 !important;
+      font-weight: 500 !important;
+      user-select: none !important;
+    }
+  }
+  input:hover {
+    transition: 0.3s ease;
+  }
+  .PhoneInputCountry {
+    padding: 0px 0px 0px 2% !important;
+  }
+  &:hover {
+    border: 1px solid #d1d1d1 !important;
+  }
+}
+
+.ant-btn:hover {
+  color: #000 !important;
+  border: none !important;
+}
+
+.ant-btn:focus {
+  color: #000 !important;
+  border: none !important;
+}
+
+.ant-btn:active {
+  color: #000 !important;
+  border: none !important;
+}
+
+.ant-tabs-tab .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #5bb286 !important;
+}
+
+.ant-tabs-tab-btn:focus {
+  color: #5bb286 !important;
+}
+
+.ant-tabs-tab-btn:hover {
+  color: #5bb286 !important;
+}
+
+.ant-tabs-tab .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #5bb286 !important;
+}
+
+.ant-form-item-has-error
+  :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  border-color: #d1d1d1 !important;
+}
+
+.ant-form-item-has-error
+  .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #d1d1d1 !important;
+}
